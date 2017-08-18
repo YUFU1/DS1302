@@ -1,0 +1,22 @@
+--cpu=Cortex-M4.fp
+".\objects\main.o"
+".\objects\led.o"
+".\objects\beep.o"
+".\objects\delay.o"
+".\objects\usart1.o"
+".\objects\exit.o"
+".\objects\w25q64.o"
+".\objects\systick.o"
+".\objects\key.o"
+".\objects\spi.o"
+".\objects\usart2.o"
+".\objects\lcd.o"
+".\objects\rtc.o"
+".\objects\startup_stm32f40_41xxx.o"
+".\objects\system_stm32f4xx.o"
+--library_type=microlib
+--feedback ".\Objects\ProjectTemplate.fed" --feedback_image=none
+--strict --scatter ".\Objects\ProjectTemplate.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ProjectTemplate.map" -o .\Objects\ProjectTemplate.axf

@@ -1,0 +1,311 @@
+Dependencies for Project 'ProjectTemplate', Target 'Template': (DO NOT MODIFY !)
+F (.\User\src\main.c)(0x59969166)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\led.c)(0x597B27FB)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\beep.c)(0x598319B1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\delay.c)(0x598319B7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\usart1.c)(0x599433A3)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\usart1.o --omf_browse .\objects\usart1.crf --depend .\objects\usart1.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\exit.c)(0x59831C1C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\exit.o --omf_browse .\objects\exit.crf --depend .\objects\exit.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\w25q64.c)(0x598BF612)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\w25q64.o --omf_browse .\objects\w25q64.crf --depend .\objects\w25q64.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\systick.c)(0x599434F4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\key.c)(0x59831BCC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\spi.c)(0x598AF455)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\usart2.c)(0x59831A13)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\usart2.o --omf_browse .\objects\usart2.crf --depend .\objects\usart2.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\lcd.c)(0x59969118)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\User\src\rtc.c)(0x59968D21)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (.\User\inc\includes.h)(0x599663D4)
+I (.\CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (.\CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\User\inc\beep.h)(0x597B2556)
+I (.\User\inc\led.h)(0x597B2589)
+I (.\User\inc\delay.h)(0x597EBD79)
+I (.\User\inc\key.h)(0x597B265F)
+I (.\User\inc\usart1.h)(0x597B266C)
+I (.\User\inc\systick.h)(0x597EBE7B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\User\inc\exit.h)(0x597708A7)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\User\inc\spi.h)(0x598AE03D)
+I (.\User\inc\w25q64.h)(0x598D5EA8)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\User\inc\rtc.h)(0x5996645A)
+I (.\User\inc\lcd.h)(0x5992E3AE)
+F (.\CMSIS\startup_stm32f40_41xxx.s)(0x53DBBC54)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1" --nowarn-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (.\CMSIS\system_stm32f4xx.c)(0x53DBBB10)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\User\src -I .\User\inc -I .\CMSIS-I.\RTE\_Template-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (CMSIS\stm32f4xx.h)(0x596DA8C1)
+I (CMSIS\core_cm4.h)(0x53C7D532)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\core_cm4_simd.h)(0x53C7D532)
+I (CMSIS\system_stm32f4xx.h)(0x53DBA49A)
+F (.\CMSIS\stm32f4xx.h)(0x596DA8C1)()
+F (.\CMSIS\system_stm32f4xx.h)(0x53DBA49A)()
