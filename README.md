@@ -144,3 +144,7 @@
 				DS1302_Write(0xc0,0xf0); //初始化一次标示
 				DS1302_Write(0x8e,0x80);
 			}
+			
+![image](https://github.com/210843013/DS1302/blob/master/ml.png)	
+
+![image](https://github.com/210843013/DS1302/blob/master/ml1.png)		
