@@ -22,49 +22,33 @@
 		
 	    
 		void DS1302_Write(u8 cmd,u8 dat)
-		
 		{
 			RST_out();
-			
 			CLK_out();
-			
 			RSTL;//初始CE线置为0
-			
 			SCLKL;//初始时钟线置为0
-			
 			RSTH;//初始CE置为1，传输开始
-			
 			Delay_us(4);
-			
 			DS1302_WriteByte(cmd);//传输命令字，要写入的时间/日历地址
-			
 			DS1302_WriteByte(dat);//写入要修改的时间/日期
-			
 			SCLKH;//时钟线拉高
-			
 			RSTL;//读取结束， CE置为0，结束数据的传输
 		}
+		
+		
 ![image](https://github.com/210843013/DS1302/blob/master/writebyte.png)		
 
 
 		void DS1302_WriteByte(u8 dat)
 		{
 			u8 i;
-			
 			SDA_out();
-
 			CLK_out();
-			
 			SCLKL;
-			
 			Delay_us(1);
-			
 			for(i=0;i<8;i++)
-			
-			{
-				
+			{	
 			  if((dat&(0x01<<i))) //注意DS1302的数据和地址都是从最低位开始传输的
-			  
 				{
 				SDAH;
 				}
@@ -72,17 +56,11 @@
 				{
 				SDAL;
 				}
-				
 				Delay_us(1);
-				
 				SCLKH;
-				
 				Delay_us(1);
-				
 				SCLKL;
-			  
-			}
-			 
+			} 
 		}
 ##### 读数据
   
@@ -103,3 +81,29 @@
 			return dat;//返回得到的时间/日期
 		}
 
+![image](https://github.com/210843013/DS1302/blob/master/readebyte.png)
+
+		u8 DS1302_ReadByte(void)
+		{
+			u8 i,dat=0;
+			SDA_int();
+			CLK_out();
+			Delay_us(1);
+			for(i=0;i<8;i++)
+			{ 
+				
+				if((GPIOF->IDR&(1<<7)))
+				{
+					dat|=0x01<<i;
+			  }
+				else
+			  {
+				   dat&=~(0x01<<i);
+			  }
+				SCLKH;
+				Delay_us(1);
+				SCLKL;
+				Delay_us(1);
+				}
+			return dat;
+		}
