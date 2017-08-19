@@ -44,5 +44,44 @@
 			
 			RSTL;//读取结束， CE置为0，结束数据的传输
 		}
+![image](https://github.com/210843013/DS1302/blob/master/writebyte.png)		
+
+
+		void DS1302_WriteByte(u8 dat)
+		{
+			u8 i;
+			
+			SDA_out();
+
+			CLK_out();
+			
+			SCLKL;
+			
+			Delay_us(1);
+			
+			for(i=0;i<8;i++)
+			
+			{
+				
+			  if((dat&(0x01<<i))) //注意DS1302的数据和地址都是从最低位开始传输的
 			  
+				{
+				SDAH;
+				}
+				else
+				{
+					SDAL;
+				}
+				
+				Delay_us(1);
+				
+				SCLKH;
+				
+				Delay_us(1);
+				
+				SCLKL;
+			  
+			}
+			 
+		}
    
