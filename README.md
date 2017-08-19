@@ -17,7 +17,7 @@
 ##### 写数据
 
 			
-	    [!image](https://github.com/210843013/DS1302/blob/master/write.png)
+[!image](https://github.com/210843013/DS1302/blob/master/write.png)
 		
 		
 	    
