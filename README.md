@@ -94,12 +94,12 @@
 				
 				if((GPIOF->IDR&(1<<7)))
 				{
-					dat|=0x01<<i;
-			  }
+				dat|=0x01<<i;
+			    }
 				else
-			  {
-				   dat&=~(0x01<<i);
-			  }
+			   {
+				dat&=~(0x01<<i);
+			   }
 				SCLKH;
 				Delay_us(1);
 				SCLKL;
