@@ -84,4 +84,22 @@
 			}
 			 
 		}
-   
+##### 读数据
+  
+![image](https://github.com/210843013/DS1302/blob/master/reade.png)
+
+		u8 DS1302_Read(u8 cmd)
+		{
+			u8 dat;
+			RST_out();
+			CLK_out();
+			RSTL;//初始CE线置为0
+			SCLKL;//初始时钟线置为0
+			RSTH;//初始CE置为1，传输开始
+			DS1302_WriteByte(cmd);//传输命令字，要读取的时间/日历地址
+			dat=DS1302_ReadByte();//读取要得到的时间/日期
+			SCLKH;//时钟线拉高
+			RSTL;//读取结束， CE置为0，结束数据的传输
+			return dat;//返回得到的时间/日期
+		}
+
