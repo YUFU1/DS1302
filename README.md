@@ -70,7 +70,7 @@
 				}
 				else
 				{
-					SDAL;
+				SDAL;
 				}
 				
 				Delay_us(1);
