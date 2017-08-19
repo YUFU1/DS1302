@@ -107,3 +107,40 @@
 				}
 			return dat;
 		}
+		
+		
+		
+##### 时钟初始化
+
+			#define DS1302_SECOND_WRITE  0x80          
+			#define	DS1302_MINUTE_WRITE  0x82
+			#define	DS1302_HOUR_WRITE    0x84
+			#define	DS1302_DAY_WRITE     0x86
+			#define	DS1302_MONTH_WRITE   0x88
+			#define	DS1302_YEAR_WRITE    0x8C
+			#define	DS1302_WEEK_WRITE    0X8A
+
+			#define DS1302_SECOND_READ  0x81          
+			#define	DS1302_MINUTE_READ   0x83
+			#define	DS1302_HOUR_READ     0x85
+			#define	DS1302_DAY_READ     0x87
+			#define	DS1302_MONTH_READ    0x89
+			#define	DS1302_YEAR_READ    0x8D
+			#define	DS1302_WEEK_READ     0X8B
+			
+			
+			
+			void DS1302_init(void)
+			{
+				DS1302_Write(0x8e,0x00);//写保护关
+				DS1302_Write(DS1302_SECOND_WRITE,0x00); 
+				DS1302_Write(DS1302_MINUTE_WRITE,0x29);
+				DS1302_Write(DS1302_HOUR_WRITE,0x11);
+				DS1302_Write(DS1302_WEEK_WRITE,0x05);
+				DS1302_Write(DS1302_DAY_WRITE,0x18); 
+				DS1302_Write(DS1302_MONTH_WRITE,0x08);
+				DS1302_Write(DS1302_YEAR_WRITE,0x17);
+				DS1302_Write(0x90,0x01); //充电
+				DS1302_Write(0xc0,0xf0); //初始化一次标示
+				DS1302_Write(0x8e,0x80);
+			}
